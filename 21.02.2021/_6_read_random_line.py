@@ -2,7 +2,7 @@
 
 import random
 
-file = open("D:\\Beinex\\sample.txt", "r")
+file = open("mydata.txt", "r")
 lines = file.readlines()
 total_lines = len(lines)
 random_number=random.randint(1,total_lines-1)
