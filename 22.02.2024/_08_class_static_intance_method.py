@@ -1,35 +1,27 @@
 """show class method, static method and instance method with simple example."""
 
+class Methods:
+    data ="Class_method"
 
-"Instance method"
-class Instance_method:
+# Instance method
     def __init__(self,name):
         self.name = name
 
-obj = Instance_method("Alan")
-result = obj.name
-print(result)
+    def instance_method(self):
+        return self.name
 
-
-"Class method"
-class Class_method:
-    def __init__(self, name):
-        self.name = name
-
+# Class method
     @classmethod
-    def data(cls, name):
-        return cls(name)
+    def class_method(cls):
+        return cls.data
 
-obj = Class_method.data("Amal")
-result = obj.name
-print(result)
-
-"Static method"
-class Student1:
+# Static method
     @staticmethod
-    def data(name):
-        return Instance_method(name)
+    def static_method():
+        print("Print this is a Static method")
 
-obj = Student1.data("Alan")
-result = obj.name
-print(result)
+
+name=Methods("Instance Method")
+print(name.instance_method())
+print(Methods.class_method())
+Methods.static_method()
