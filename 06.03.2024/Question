@@ -1,0 +1,15 @@
+1	What is normalization in the context of database design?
+2	Why is normalization important for database management?
+3	Explain the concept of data redundancy and how normalization helps to mitigate it.
+4	What are the primary goals of normalization?
+5	List and explain the different normal forms in normalization theory.
+6	What is First Normal Form (1NF) and why is it necessary?explain with example
+7	How does Second Normal Form (2NF) differ from First Normal Form (1NF)?explain with example
+8	Describe Third Normal Form (3NF) and its significance in database design.explain with example
+9	What is Boyce-Codd Normal Form (BCNF) and how does it differ from Third Normal Form (3NF)?explain with example
+10	Explain the concept of transitive dependency and its role in normalization.
+11	Can you provide examples illustrating the process of normalization and its application in real-world database scenarios?
+12	Define SQL constraints and explain their significance in database management. Provide examples of different types of SQL constraints.
+13	Discuss the purpose of the NOT NULL constraint in SQL. How does it differ from the UNIQUE constraint?
+14	Explain the concept of a PRIMARY KEY constraint in SQL. What role does it play in database design and data integrity?
+15	Explain the difference between Data Definition Language (DDL), Data Manipulation Language (DML), and Data Control Language (DCL) in SQL.Provide examples of scenarios where DDL commands would be used
