@@ -18,16 +18,16 @@ CREATE TABLE Employee_Info (
 );
 
 -- Inserting data to the table Employee_Info
-INSERT INTO  my.employee_info VALUES (1, 'Albin', 'Kuriachan', 'IT', 'Manager', 25, 60000, '2022-01-01', '1234567890', 'ak@gmail.com');
-INSERT INTO my.employee_info VALUES (2, 'Amit', 'Kumar', 'HR', 'HR Specialist', 28, 55000, '2022-02-15', '9876543210', 'akumar@gmail.com');
-INSERT INTO my.employee_info VALUES (3, 'Priya', 'Patel', 'Marketing', 'Marketing Executive', 30, 65000, '2022-03-01', '5555555555', 'ppatel@gmail.com');
-INSERT INTO my.employee_info VALUES (4, 'Rahul', 'Sharma', 'Finance', 'Financial Analyst', 32, 70000, '2022-04-01', '1112223333', 'rsharma@gmail.com');
-INSERT INTO my.employee_info VALUES (5, 'Sunita', 'Singh', 'IT', 'Developer', 35, 75000, '2022-05-15', '9998887777', 'ssingh@gmail.com');
-INSERT INTO my.employee_info VALUES (6, 'Deepak', 'Gupta', 'Sales', 'Sales Manager', 40, 80000, '2022-06-01', '7777777777', 'dgupta@gmail.com');
-INSERT INTO my.employee_info VALUES (7, 'Neha', 'Verma', 'HR', 'HR Manager', 45, 85000, '2022-07-15', '6666666666', 'nverma@gmail.com');
-INSERT INTO my.employee_info VALUES (8, 'Aarti', 'Yadav', 'Finance', 'Accountant', 28, 60000, '2022-08-01', '4444444444', 'ayadav@gmail.com');
-INSERT INTO my.employee_info VALUES (9, 'Manoj', 'Thakur', 'Marketing', 'Marketing Assistant', 33, 70000, '2022-09-15', '3333333333', 'mthakur@gmail.com');
-INSERT INTO my.employee_info VALUES (10, 'Anjali', 'Joshi', 'IT', 'System Administrator', 38, 80000, '2022-10-01', '2222222222', 'ajoshi@gmail.com');
+INSERT INTO Employee.employee_info VALUES (1, 'Albin', 'Kuriachan', 'IT', 'Manager', 25, 60000, '2022-01-01', '1234567890', 'ak@gmail.com');
+INSERT INTO Employee.employee_info VALUES (2, 'Amit', 'Kumar', 'HR', 'HR Specialist', 28, 55000, '2022-02-15', '9876543210', 'akumar@gmail.com');
+INSERT INTO Employee.employee_info VALUES (3, 'Priya', 'Patel', 'Marketing', 'Marketing Executive', 30, 65000, '2022-03-01', '5555555555', 'ppatel@gmail.com');
+INSERT INTO Employee.employee_info VALUES (4, 'Rahul', 'Sharma', 'Finance', 'Financial Analyst', 32, 70000, '2022-04-01', '1112223333', 'rsharma@gmail.com');
+INSERT INTO Employee.employee_info VALUES (5, 'Sunita', 'Singh', 'IT', 'Developer', 35, 75000, '2022-05-15', '9998887777', 'ssingh@gmail.com');
+INSERT INTO Employee.employee_info VALUES (6, 'Deepak', 'Gupta', 'Sales', 'Sales Manager', 40, 80000, '2022-06-01', '7777777777', 'dgupta@gmail.com');
+INSERT INTO Employee.employee_info VALUES (7, 'Neha', 'Verma', 'HR', 'HR Manager', 45, 85000, '2022-07-15', '6666666666', 'nverma@gmail.com');
+INSERT INTO Employee.employee_info VALUES (8, 'Aarti', 'Yadav', 'Finance', 'Accountant', 28, 60000, '2022-08-01', '4444444444', 'ayadav@gmail.com');
+INSERT INTO Employee.employee_info VALUES (9, 'Manoj', 'Thakur', 'Marketing', 'Marketing Assistant', 33, 70000, '2022-09-15', '3333333333', 'mthakur@gmail.com');
+INSERT INTO Employee.employee_info VALUES (10, 'Anjali', 'Joshi', 'IT', 'System Administrator', 38, 80000, '2022-10-01', '2222222222', 'ajoshi@gmail.com');
 
 -- Selcet all the data in the table  
 SELECT * FROM employee_info
@@ -36,10 +36,10 @@ SELECT * FROM employee_info
 SELECT Employee_ID,First_Name, Last_Name, Department, Position FROM Employee_Info;
 
 -- Select employees with a age grater than 18
-SELECT * FROM my.employee_info WHERE Age > 18;
+SELECT * FROM Employee.employee_info WHERE Age > 18;
 
 -- Select employees with a salary between 50000 and 70000
-SELECT * FROM My.employee_Info WHERE salary between 70000 and 80000;
+SELECT * FROM Employee.employee_Info WHERE salary between 70000 and 80000;
 
 -- Select employees with letter y in first name
 SELECT * FROM Employee_Info WHERE First_Name LIKE '%y%';
