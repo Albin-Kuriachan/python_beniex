@@ -1,0 +1,16 @@
+
+Task  - Create a table with 10 * 10 dimensions having both numeric and non numeric columns.
+Build your own scenario and create corresponding queries. Minimum 15 scenarios
+
+Eg: Scenario 1 - Choose names with age greater than 18
+	Select * from Table where age > 18;
+
+Use all the commands shown below and create different meaningful scenarios.
+SELECT
+INSERT
+DISTINCT
+WHERE
+AND
+OR
+IN
+BETWEEN
