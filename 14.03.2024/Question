@@ -1,3 +1,8 @@
-1) What are the key features of the Django Template language, and how do they contribute to its advantages in web development?
-2) Create a Django view using both function-based and class-based approaches. Utilize different Django
-Template Language (DTL) tags within these views.(attach screenshots of SITE)
+Create list and detail view using function & class based view in django
+1. Create a new django project
+2. Create an app
+3. Create two models and then add items (using admin panel or shell)
+4. Create list view using function based view to show list of items from the first model
+5. Create list view using class based view to show list of items from the second model
+6. Create detail view using function based view to show detail view of an item
+7. Create detail view using class based view to show detail view of an item
