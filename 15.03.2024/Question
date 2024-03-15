@@ -1,0 +1,6 @@
+1.Create a new django project
+2.Create required apps and models
+3.Create a view for adding details to first model (Use normal forms)
+4.Create a view for adding details to second model (Use model forms)
+5.Create views for listing created records of each model in a table
+6.Implement file upload using ModelForm and list the uploaded files 
