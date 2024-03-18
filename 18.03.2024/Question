@@ -1,0 +1,9 @@
+1.Create a new django project
+2.Create required apps and models
+3.Create views for login, logout and listing items from a model which can be accessed only by logged in users
+4.Show the number of failed login attempts in session
+5.Show the number of successful login in cookies
+
+Reference:
+https://docs.djangoproject.com/en/5.0/topics/http/sessions/
+https://docs.djangoproject.com/en/5.0/topics/auth/default/
