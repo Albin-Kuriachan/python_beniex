@@ -1,0 +1,5 @@
+1) What role does celery play in Django, and why is it utilized within the framework? Furthermore, what
+advantages does celery offer to Django developers and their projects?
+2) implement a notification system within our job portal project to alert both job seekers and employers when a
+job application is submitted or received, ensuring timely communication and interaction between the two
+parties.
