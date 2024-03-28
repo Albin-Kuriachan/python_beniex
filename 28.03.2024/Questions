@@ -1,0 +1,36 @@
+Django ORM Task 1 (share the screenshots of the task)
+1. Create a django project named library
+2. Inside the project create and app named book
+3. create 2 models in the app for storing data of books and authors
+-- authors[first_name, last_name, email, books_count, average_rating]
+-- books[name, price, average_rating, count, author(foreign key)]
+4. install django-extensions package and use shell_plus to run queries
+-- create 5 authors
+-- create 10 books
+-- show all the objects in books and authors model
+-- filter and show some authors using first_name field
+-- filter and show some authors that does not have a last_name
+-- filter and show some authors that have books count greater than 10
+-- filter and show some authors that have an average rating less than or equal to 3
+-- filter and show some books that have price less than or equal to 500
+-- filter and show some books that have proce grater than or equal to 700
+-- filter and show some books that has an average rating greater than 3
+-- filter and show some books that has count greater than 100
+-- filter some books that has price greater than 500 and show the names of all one by one
+along with its price and author's first name
+-- fetch the first book and show its name
+-- fetch the last book and show its authors full name
+-- fetch a book using its id, show its name and author's full name
+-- show the total count of books and authors
+-- fetch a book by its id and update the author and save
+-- show the total count of authors
+-- show the count of authors that has an average rating greater than or equal to 3
+-- check whether an author exists in the table using email field
+-- check whether a book exists in the table with its name
+-- show all the books in the order of its name
+-- delete 2 books from the table after fetching it with name
+-- update the books count value after fetching a book using its name
+-- filter and show the name of books that has books count less than or equal to 20
+-- show all the authors that has first name starting wth "a"
+-- show all the authors that contains "d" in the first name
+-- delete the books that has book count 0
