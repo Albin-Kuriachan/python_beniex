@@ -1,0 +1,26 @@
+Django ORM Task 3
+Note - avoid N+1 query problems
+1. Using the shell plus and the django project you created before, run these queries to:
+-- fetch all the objects from the book table and use annotate to add book_name to show name
+of the book. Show only book_name and price in list of dictionaries
+-- fetch all the authors and use annotate to set full name and show the list of full name of the
+authors
+-- show the count of authors that has an average rating greater than or equal to 4 using
+aggregate
+-- fetch all the books and add a field to store discount using annotate, the book with an
+averate rating less than or equal to 3 should have a discount of 20% and all others
+should have 0% discount. Add another variable to store the actual price of that book
+after discount by using annotate. Show the books name, discount, actual price in a
+list of dictionaries
+-- fetch all the authors and their books count that has average rating greater than or equal to
+3 using subquery and annotate. Show the first name of author and books count as a
+list of dictionaries
+-- fetch all the books which are from one of the authors, filter using first name
+-- fetch all the authors along with their books
+-- fetch all the authors and use subquery to fetch count of the books, show the full name and
+count of the books in a list of dictionary format
+-- fetch an object from books table and update its count and save it
+-- fetch an object from authors table with select for update and atomic transaction to update
+the average rating and save it
+-- fetch all the objects from book table and show the name, average rating, full name of
+author of the books in a list of dictionary format
