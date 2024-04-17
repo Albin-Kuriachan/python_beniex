@@ -1,0 +1,5 @@
+
+DRF Task 2
+1) create an API for user login (includes access token and refresh token in response)
+2) Create an API to list all users (including search functionality)
+3) Create an API to get user details, update user details, and delete user using user_id
