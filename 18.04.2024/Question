@@ -1,0 +1,6 @@
+Dajngo Views
+------------------
+1. Create new records using CreateAPIView and APIView
+2. Retrieve record details using RetrieveAPIView and APIView, considering foreign key fields.
+
+
