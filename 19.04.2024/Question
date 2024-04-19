@@ -1,0 +1,8 @@
+Dajngo Views
+------------------
+1. Create an API for updating records,using PUT and PATCH.
+2. Create an API for deleting records with custom error messages.
+3. Create an API for bulk deletion. 
+
+
+
